@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -74,6 +76,8 @@ public class ProductController {
     // POST API
     @PostMapping("/posts")
     public String create(@RequestBody Object body) throws Exception {
+    	
+    
         return service.createPost(body);
     }
 
@@ -85,3 +89,71 @@ public class ProductController {
       //  return service.updatePost(id, body);
     //}
 //}
+    
+    
+    
+    /**
+     
+     if (condition) {
+     
+     } else {
+     
+     }
+     
+     
+     if (india ){
+     
+    } else if( us ) {
+    
+    }
+    
+    
+    List = [1,2,3,5]
+    int i = 0;
+    
+    for (initial,condition, in/dec){
+    
+    }
+    
+   class = 8 - 10 
+    
+    for (class = 8, class == 10; class++){
+    
+    
+    
+    }
+    
+    
+    while (){
+    
+    }
+    
+    
+    
+     {
+    
+    
+    } do while()
+    
+    
+    
+    
+    switch (input )
+    
+     case depbit:
+           debit code
+     
+     case credit:
+          creddit
+     
+     case check balance: 
+          balance check
+      
+      case default :
+          
+          
+        
+    
+     
+     
+     * */
